@@ -7,10 +7,9 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="assets/js/main.js"></script>
 </head>
 <body>
-    <!-- Header -->
     <header id="header">
         <div class="container">
             <nav class="navbar">
@@ -29,7 +28,6 @@
         </div>
     </header>
 
-    <!-- Hero Section -->
     <section id="home" class="hero">
         <div class="container">
             <div class="hero-content">
@@ -55,7 +53,6 @@
         </div>
     </section>
 
-    <!-- About Section -->
     <section id="about" class="section">
         <div class="container">
             <div class="section-title">
@@ -102,7 +99,7 @@
                     <div class="skill-item">
                         <div class="skill-header">
                             <h4>JavaScript</h4>
-                            <span>65%</span>
+                            <span>85%</span>
                         </div>
                         <div class="skill-bar">
                             <div class="skill-progress" data-width="85%"></div>
@@ -112,30 +109,30 @@
                     <div class="skill-item">
                         <div class="skill-header">
                             <h4>React</h4>
-                            <span>60%</span>
+                            <span>85%</span>
                         </div>
                         <div class="skill-bar">
-                            <div class="skill-progress" data-width="60%"></div>
+                            <div class="skill-progress" data-width="85%"></div>
                         </div>
                     </div>
                     
                     <div class="skill-item">
                         <div class="skill-header">
                             <h4>Node.js</h4>
-                            <span>60%</span>
+                            <span>85%</span>
                         </div>
                         <div class="skill-bar">
-                            <div class="skill-progress" data-width="60%"></div>
+                            <div class="skill-progress" data-width="85%"></div>
                         </div>
                     </div>
 
                      <div class="skill-item">
                         <div class="skill-header">
                             <h4>MongoDB</h4>
-                            <span>60%</span>
+                            <span>90%</span>
                         </div>
                         <div class="skill-bar">
-                            <div class="skill-progress" data-width="60%"></div>
+                            <div class="skill-progress" data-width="90%"></div>
                         </div>
                     </div>
                 </div>
@@ -143,7 +140,6 @@
         </div>
     </section>
 
-    <!-- Services Section -->
     <section id="services" class="section" style="background: #f8f9fa;">
         <div class="container">
             <div class="section-title">
@@ -179,7 +175,6 @@
         </div>
     </section>
 
-    <!-- Portfolio Section -->
     <section id="portfolio" class="section">
         <div class="container">
             <div class="section-title">
@@ -192,8 +187,79 @@
                 <button class="filter-btn" data-filter="web">Web Development</button>
                 <button class="filter-btn" data-filter="design">UI/UX Design</button>
             </div>
+
             
             <div class="portfolio-grid">
+                <div class="portfolio-item" data-category="web">
+                    <div class="portfolio-img">
+                        <img src="assets/img/FullStack Website.png" alt="Full-Stack-project Screenshot">
+                    </div>
+                    <div class="portfolio-overlay">
+                        <h3>Full Stack Food Website</h3>.
+                        <p>Website created through MERN stack</p>
+                        <div class="portfolio-links">
+                            <a href="https://full-stack-project-gold.vercel.app/"><i class="fas fa-link"></i></a>
+                            <a href="https://github.com/swechhashrestha/Full-Stack-project"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item" data-category="web">
+                    <div class="portfolio-img">
+                        <img src="assets/img/Momo Website.png" alt="Momo E-Commerce Screenshot">
+                    </div>
+                    <div class="portfolio-overlay">
+                        <h3>Momo Website</h3>
+                        <p>Responsive designed website created using react.js and tailwindcss.</p>
+                        <div class="portfolio-links">
+                            <a href="https://momo-a5gy.vercel.app/"><i class="fas fa-link"></i></a>
+                            <a href="https://github.com/swechhashrestha/Momo"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item" data-category="web">
+                    <div class="portfolio-img">
+                        <img src="assets/img/AdminDashboard.png" alt="AdminDashboard Screenshot">
+                    </div>
+                    <div class="portfolio-overlay">
+                        <h3>Admin Dashboard</h3>
+                        <p>Admin dashboard using react.js and tailwind css.</p>
+                        <div class="portfolio-links">
+                            <a href="https://admin-dashboard-tau-ten-30.vercel.app/"><i class="fas fa-link"></i></a>
+                            <a href="https://github.com/swechhashrestha/AdminDashboard"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item" data-category="web">
+                    <div class="portfolio-img">
+                        <img src="assets/img/Todo App.png" alt="Todo app Screenshot">
+                    </div>
+                    <div class="portfolio-overlay">
+                        <h3>Todo App</h3>
+                        <p>Todo app with crud operation.</p>
+                        <div class="portfolio-links">
+                            <a href="https://todo-app-delta-blond.vercel.app/"><i class="fas fa-link"></i></a>
+                            <a href="https://github.com/swechhashrestha/TodoApp"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item" data-category="web">
+                    <div class="portfolio-img">
+                        <img src="assets/img/Counter App.png" alt="CounterApp Screenshot">
+                    </div>
+                    <div class="portfolio-overlay">
+                        <h3>Counter App</h3>
+                        <p>Counter App using react.js.</p>
+                        <div class="portfolio-links">
+                            <a href="https://counter-app-lovat-phi.vercel.app/"><i class="fas fa-link"></i></a>
+                            <a href="https://github.com/swechhashrestha/CounterApp"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+
                 <div class="portfolio-item" data-category="web">
                     <div class="portfolio-img">
                         <img src="assets/img/Jewelry store.png" alt="Jewelry Store E-Commerce Screenshot">
@@ -248,11 +314,11 @@
                         </div>
                     </div>
                 </div>
+
             </div>
         </div>
     </section>
 
-    <!-- Contact Section -->
     <section id="contact" class="section" style="background: #f8f9fa;">
         <div class="container">
             <div class="section-title">
@@ -314,7 +380,6 @@
         </div>
     </section>
 
-    <!-- Footer -->
     <footer>
         <div class="container">
             <div class="footer-content">
@@ -351,119 +416,9 @@
             </div>
             
             <div class="footer-bottom">
-                <p>&copy; 2025 Swechha Shrestha. All Rights Reserved.</p>
+                <p>&copy; 2026 Swechha Shrestha. All Rights Reserved.</p>
             </div>
         </div>
     </footer>
-    <script>
-    // Sticky Header
-        window.addEventListener('scroll', function() {
-            const header = document.getElementById('header');
-            if (window.scrollY > 50) {
-                header.classList.add('sticky');
-            } else {
-                header.classList.remove('sticky');
-            }
-        });
-        
-        // Mobile Menu Toggle
-        const menuToggle = document.querySelector('.menu-toggle');
-        const navLinks = document.querySelector('.nav-links');
-        
-        menuToggle.addEventListener('click', function() {
-            navLinks.classList.toggle('active');
-        });
-        
-        // Close mobile menu when clicking on a link
-        document.querySelectorAll('.nav-links a').forEach(link => {
-            link.addEventListener('click', () => {
-                navLinks.classList.remove('active');
-            });
-        });
-        
-        // Smooth scrolling for navigation links
-        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-            anchor.addEventListener('click', function(e) {
-                e.preventDefault();
-                
-                const targetId = this.getAttribute('href');
-                if (targetId === '#') return;
-                
-                const targetElement = document.querySelector(targetId);
-                if (targetElement) {
-                    window.scrollTo({
-                        top: targetElement.offsetTop - 70,
-                        behavior: 'smooth'
-                    });
-                }
-            });
-        });
-        
-        // Portfolio Filtering
-        const filterBtns = document.querySelectorAll('.filter-btn');
-        const portfolioItems = document.querySelectorAll('.portfolio-item');
-        
-        filterBtns.forEach(btn => {
-            btn.addEventListener('click', () => {
-                // Remove active class from all buttons
-                filterBtns.forEach(btn => btn.classList.remove('active'));
-                
-                // Add active class to clicked button
-                btn.classList.add('active');
-                
-                const filterValue = btn.getAttribute('data-filter');
-                
-                portfolioItems.forEach(item => {
-                    if (filterValue === 'all' || item.getAttribute('data-category') === filterValue) {
-                        item.style.display = 'block';
-                    } else {
-                        item.style.display = 'none';
-                    }
-                });
-            });
-        });
-        
-        // Animate skill bars on scroll
-        function animateSkillBars() {
-            const skillBars = document.querySelectorAll('.skill-progress');
-            
-            skillBars.forEach(bar => {
-                const width = bar.getAttribute('data-width');
-                bar.style.width = width;
-            });
-        }
-        
-        // Check if skills section is in viewport
-        function checkScroll() {
-            const skillsSection = document.querySelector('.skills');
-            if (!skillsSection) return;
-            
-            const sectionPos = skillsSection.getBoundingClientRect().top;
-            const screenPos = window.innerHeight / 1.3;
-            
-            if (sectionPos < screenPos) {
-                animateSkillBars();
-                window.removeEventListener('scroll', checkScroll);
-            }
-        }
-        
-        window.addEventListener('scroll', checkScroll);
-        
-        // Form submission
-        const contactForm = document.getElementById('contactForm');
-        if (contactForm) {
-            contactForm.addEventListener('submit', function(e) {
-                e.preventDefault();
-                alert('Thank you for your message! I will get back to you soon.');
-                this.reset();
-            });
-        }
-        
-        // Initialize
-        document.addEventListener('DOMContentLoaded', function() {
-            // Initial check for skills animation
-            checkScroll();
-        });
-    </script>
 </body>
 </html>
